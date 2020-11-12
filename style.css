@@ -1,17 +1,24 @@
-
+html{
+    background-color: white;
+}
 body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
     'Helvetica Neue', Arial, sans-serif;
     text-align: center;
-    background-color: white;
-}
+    background-color: rgb(219, 219, 219);
+    padding-bottom: 5px;
+    
+
+}   
 
 main{
-    
+    padding: 15px;
+    margin: 30px 15px;
+    border-radius: 10px;
     resize: both;
-    background-color: grey;
+    background-color: rgb(206, 157, 157);
 
-    padding: 1cm;
+    padding: 15px;
 }
 
 image{
@@ -22,5 +29,13 @@ image{
     margin: 0 auto 50px auto;
     text-align: left;
     max-width: 500px;
+    background-color: rgb(219, 219, 219);
+    line-height: 1.7;
     
+}
+
+#tribute-info{
+    margin: 0 auto 50px auto;
+    text-align: center;
+    max-width: 800px;
 }
